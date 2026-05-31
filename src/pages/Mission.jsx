@@ -23,11 +23,12 @@ export default function Mission() {
         <h2 className="mission-video-title">See the impact <em>we are making</em></h2>
         <div className="mission-video-row">
           <div className="mission-video-wrap">
-            <video controls playsInline>
-              <source src="/src/assets/AAVE-Video.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
+            <iframe
+                src="https://drive.google.com/file/d/1mRmwBmYiXfNH82-tHD94gltWHbn8_akE/preview"
+                allow="autoplay"
+                allowFullScreen
+            />
+            </div>
           <div className="catatumbo">
             <p className="section-eyebrow catatumbo-eyebrow">Featured Project</p>
             <h3 className="catatumbo-title">The Catatumbo Project</h3>
