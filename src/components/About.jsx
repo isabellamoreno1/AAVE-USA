@@ -18,7 +18,7 @@ export default function About() {
         <div className="about-image-col">
           <div className="about-img-wrap">
             <img
-              src="/src/assets/Group.jpg"
+              src="/Group.jpg"
               alt="AAVE community members"
             />
             <div className="about-img-badge">Est. in the USA</div>

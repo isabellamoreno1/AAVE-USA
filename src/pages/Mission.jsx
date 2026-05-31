@@ -24,10 +24,10 @@ export default function Mission() {
         <div className="mission-video-row">
           <div className="mission-video-wrap">
             <iframe
-                src="https://drive.google.com/file/d/1mRmwBmYiXfNH82-tHD94gltWHbn8_akE/preview"
-                allow="autoplay"
+                src="https://player.vimeo.com/video/1197163160"
+                allow="autoplay; fullscreen; picture-in-picture"
                 allowFullScreen
-            />
+                />
             </div>
           <div className="catatumbo">
             <p className="section-eyebrow catatumbo-eyebrow">Featured Project</p>
