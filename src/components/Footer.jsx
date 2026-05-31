@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Footer.css'
 
 export default function Footer() {
@@ -16,11 +17,9 @@ export default function Footer() {
         </div>
         <div className="footer-right">
           <nav className="footer-links">
-            <a href="#about">About</a>
-            <a href="#chapters">Chapters</a>
-            <a href="#events">Events</a>
-            <a href="#resources">Resources</a>
-            <a href="mailto:info@aave-usa.org">Contact</a>
+            <Link to="/">Home</Link>
+            <Link to="/mission">Our Mission</Link>
+            <Link to="/contact">Contact</Link>
           </nav>
           <p className="footer-copy">© 2026 AAVE-USA. All rights reserved.</p>
           <p className="footer-tagline">Unidos por la ingeniería</p>

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './CTA.css'
 
 export default function CTA() {
@@ -13,8 +14,7 @@ export default function CTA() {
           your community. Let us build the future together.
         </p>
         <div className="cta-actions">
-          <a href="mailto:info@aave-usa.org" className="btn-white">Join AAVE-USA</a>
-          <a href="mailto:info@aave-usa.org" className="btn-outline-white">Contact us</a>
+          <Link to="/contact" className="btn-white">Get in touch</Link>
         </div>
       </div>
     </section>
