@@ -24,11 +24,11 @@ export default function Mission() {
         <div className="mission-video-row">
           <div className="mission-video-wrap">
             <iframe
-                src="https://player.vimeo.com/video/1197163160"
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowFullScreen
-                />
-            </div>
+              src="https://player.vimeo.com/video/1197163160"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
           <div className="catatumbo">
             <p className="section-eyebrow catatumbo-eyebrow">Featured Project</p>
             <h3 className="catatumbo-title">The Catatumbo Project</h3>
@@ -55,61 +55,6 @@ export default function Mission() {
           <div className="mission-card-num">03</div>
           <h3>Spread Awareness</h3>
           <p>We use our platform to shed light on the challenges facing Venezuela and rally our community to take action.</p>
-        </div>
-      </div>
-
-      <div className="mission-chapters">
-        <div className="mission-chapters-inner">
-          <p className="section-eyebrow" style={{ textAlign: 'center', marginBottom: '12px', color: 'var(--gold)' }}>Student Chapters</p>
-          <h2 className="mission-chapters-title">Our chapters across <em>Florida</em></h2>
-          <p className="mission-chapters-sub">AAVE-USA is growing through student-led chapters at universities across the state, uniting the next generation of Venezuelan engineers.</p>
-          <div className="mission-chapters-grid">
-            <div className="mission-chapter-card">
-              <div className="mission-chapter-top">
-                <div className="mission-chapter-dot" style={{ background: 'var(--gold)' }} />
-                <span className="mission-chapter-uni">University of Central Florida</span>
-              </div>
-              <h3>AAVE UCF</h3>
-              <p>Orlando, Florida</p>
-              <div className="mission-chapter-links">
-                <a href="https://www.instagram.com/aaveucf" target="_blank" rel="noreferrer" className="chapter-link chapter-link-ig">Instagram</a>
-                <a href="https://aaveucf.club" target="_blank" rel="noreferrer" className="chapter-link chapter-link-web">Website</a>
-              </div>
-            </div>
-
-            <div className="mission-chapter-card">
-              <div className="mission-chapter-top">
-                <div className="mission-chapter-dot" style={{ background: 'var(--blue)' }} />
-                <span className="mission-chapter-uni">Florida International University</span>
-              </div>
-              <h3>AAVE FIU</h3>
-              <p>Miami, Florida</p>
-              <div className="mission-chapter-links">
-                <a href="https://www.instagram.com/aavefiu" target="_blank" rel="noreferrer" className="chapter-link chapter-link-ig">Instagram</a>
-              </div>
-            </div>
-
-            <div className="mission-chapter-card">
-              <div className="mission-chapter-top">
-                <div className="mission-chapter-dot" style={{ background: 'var(--red)' }} />
-                <span className="mission-chapter-uni">University of Florida</span>
-              </div>
-              <h3>AAVE UF</h3>
-              <p>Gainesville, Florida</p>
-              <div className="mission-chapter-links">
-                <span className="chapter-link chapter-link-soon">Coming soon</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="mission-donate">
-        <div className="mission-donate-bg">AAVE</div>
-        <div className="mission-donate-inner">
-          <h2>Ready to make a <em>difference?</em></h2>
-          <p>Every contribution brings us closer to a stronger Venezuela. Join us in giving back.</p>
-          <a href="mailto:info@aave-usa.org" className="btn-gold-lg">Donate now</a>
         </div>
       </div>
     </div>

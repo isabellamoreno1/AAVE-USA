@@ -7,6 +7,9 @@
 .whatwedo-header {
   max-width: 560px;
   margin-bottom: 48px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-eyebrow {
