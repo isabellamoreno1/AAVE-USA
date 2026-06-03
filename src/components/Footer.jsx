@@ -22,7 +22,7 @@ export default function Footer() {
             <Link to="/contact">Contact</Link>
           </nav>
           <p className="footer-copy">© 2026 AAVE-USA. All rights reserved.</p>
-          <p className="footer-tagline">Unidos por la ingeniería</p>
+          <p className="footer-tagline">United by culture, driven by excellence</p>
         </div>
       </footer>
     </>

@@ -1,9 +1,14 @@
-import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 import './Navbar.css'
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
+  const { pathname } = useLocation()
+
+    useEffect(() => {
+    window.scrollTo(0, 0)
+    }, [pathname])
 
   return (
     <>

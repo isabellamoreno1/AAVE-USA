@@ -21,7 +21,7 @@ export default function About() {
               src="/Group.jpg"
               alt="AAVE community members"
             />
-            <div className="about-img-badge">Est. in the USA</div>
+            <div className="about-img-badge">Established in the USA</div>
           </div>
         </div>
 
@@ -31,15 +31,12 @@ export default function About() {
             A home away<br />from <em>home</em>
           </h2>
 
-          <p className="about-body">
-            AAVE-USA brings together Venezuelan engineers and students united
-            by shared heritage and the drive to succeed, across every state
-            and every discipline.
-          </p>
-          <p className="about-body">
-            Whether you are a recent graduate or a seasoned professional,
-            AAVE-USA is your national network.
-          </p>
+            <p className="about-body">
+            AAVE-USA is more than an organization. We are a community built on shared roots, mutual support, and a drive to grow together across every state and every discipline.
+            </p>
+            <p className="about-body">
+            From professional networking and career workshops to cultural celebrations and community events, we show up for our members in every way that matters.
+            </p>
 
           <ul className="about-list">
             {highlights.map((item, i) => (

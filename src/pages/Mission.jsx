@@ -19,26 +19,26 @@ export default function Mission() {
       </div>
 
       <div className="mission-video-section">
-        <p className="section-eyebrow" style={{ textAlign: 'center', marginBottom: '12px' }}>Watch Our Story</p>
-        <h2 className="mission-video-title">See the impact <em>we are making</em></h2>
-        <div className="mission-video-row">
-          <div className="mission-video-wrap">
-            <iframe
-              src="https://player.vimeo.com/video/1197163160"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowFullScreen
-            />
-          </div>
-          <div className="catatumbo">
-            <p className="section-eyebrow catatumbo-eyebrow">Featured Project</p>
-            <h3 className="catatumbo-title">The Catatumbo Project</h3>
-            <p className="catatumbo-location">Maracaibo, Venezuela</p>
-            <p className="catatumbo-body">
-              AAVE-USA raised funds for the community of Maracaibo and sent one of our own members on the ground to purchase and install new equipment for the town, turning donations into direct real-world impact.
-            </p>
-          </div>
-        </div>
-      </div>
+  <div className="mission-video-row">
+    <div className="mission-video-wrap">
+      <iframe
+        src="https://player.vimeo.com/video/1197163160"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowFullScreen
+      />
+    </div>
+    <div className="catatumbo">
+      <p className="section-eyebrow" style={{ textAlign: 'left', marginBottom: '12px' }}>Watch Our Story</p>
+      <h2 className="mission-video-title">See the impact <em>we are making</em></h2>
+      <p className="section-eyebrow catatumbo-eyebrow" style={{ marginTop: '32px' }}>Featured Project</p>
+      <h3 className="catatumbo-title">The Catatumbo Project</h3>
+      <p className="catatumbo-location">Maracaibo, Venezuela</p>
+      <p className="catatumbo-body">
+        AAVE-USA raised funds for the community of Maracaibo and sent one of our own members on the ground to purchase and install new equipment for the town, turning donations into direct real-world impact.
+      </p>
+    </div>
+  </div>
+</div>
 
       <div className="mission-cards">
         <div className="mission-card mission-card-gold">

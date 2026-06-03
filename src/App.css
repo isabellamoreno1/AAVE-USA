@@ -32,6 +32,7 @@ body {
   background: #fff;
   color: #1a1a1a;
   -webkit-font-smoothing: antialiased;
+  padding-top: 81px;
 }
 
 .tricolor {
@@ -41,3 +42,8 @@ body {
 .tricolor-gold { flex: 1; background: var(--gold); }
 .tricolor-blue { flex: 1; background: var(--blue); }
 .tricolor-red  { flex: 1; background: var(--red); }
+
+body, #root {
+  width: 100%;
+  overflow-x: hidden;
+}
