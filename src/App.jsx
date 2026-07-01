@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import Home from './pages/Home'
 import Mission from './pages/Mission'
 import Contact from './pages/Contact'
+import VenezuelaRelief from './pages/VenezuelaRelief'
 import './App.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/mission" element={<Mission />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/venezuela-relief" element={<VenezuelaRelief />} />
       </Routes>
       <Footer />
     </>
