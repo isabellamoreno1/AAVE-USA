@@ -52,6 +52,37 @@ function ReliefHero() {
         >
           Donate Now
         </a>
+
+        <div className="relief-mission-update">
+          <p className="relief-mission-eyebrow">Mission Update</p>
+
+          <div className="relief-mission-stats">
+            <div className="relief-mission-stat">
+              <div className="relief-mission-number">15</div>
+              <div className="relief-mission-label">Survivors Rescued</div>
+            </div>
+
+            <div className="relief-mission-stat">
+              <div className="relief-mission-number">50</div>
+              <div className="relief-mission-label">Families Given Closure</div>
+            </div>
+          </div>
+
+          <p className="relief-mission-text">
+            Our rescue operators from the UNIMET team have rescued
+            <strong> 15 survivors </strong>
+            and respectfully returned
+            <strong> 50 victims </strong>
+            to their families so they may be laid to rest with dignity.
+            <br />
+            <br />
+            We are deeply grateful for the incredible support we have received.
+            Your generosity has allowed us to continue our boots-on-the-ground
+            emergency operations during this crisis. Together, we will keep
+            working tirelessly to help those affected.
+          </p>
+        </div>
+
         <div className="relief-hero-partner">
           <div className="relief-hero-partner-logos">
             <img
